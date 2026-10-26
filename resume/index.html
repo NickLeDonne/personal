@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nicholas LeDonne - Resume</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+    body { font-family: 'Inter', sans-serif; }
+  </style>
+</head>
+<body class="bg-[#222222] text-[#e0e0e0] antialiased selection:bg-teal-500 selection:text-white">
+
+  <div class="max-w-6xl mx-auto p-6 md:p-12 flex flex-col md:flex-row gap-12">
+    
+    <!-- Left Sidebar -->
+    <aside class="md:w-1/4 flex flex-col items-center md:items-start space-y-6 md:sticky md:top-12 h-fit">
+      <!-- Profile Picture -->
+      <img src="profile-pic.jpg" alt="Nicholas LeDonne" class="w-44 h-44 rounded-3xl object-cover border border-neutral-700 shadow-md">
+      
+      <!-- Social Icons Directly Under Profile Picture -->
+      <div class="flex justify-center items-center gap-4 w-full md:w-44 text-neutral-400">
+        <!-- LinkedIn -->
+        <a href="https://www.linkedin.com/in/nicholasledonne/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" class="hover:text-teal-400 transition-colors">
+          <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24">
+            <path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.46 10.9v8.37H9.25V10.9H6.46M7.86 6.75a1.45 1.45 0 1 0 0 2.9 1.45 1.45 0 0 0 0-2.9Z"/>
+          </svg>
+        </a>
+        
+        <!-- GitHub -->
+        <a href="https://github.com/NickLeDonne" target="_blank" rel="noopener noreferrer" aria-label="GitHub" class="hover:text-teal-400 transition-colors">
+          <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24">
+            <path d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.87 1.52 2.34 1.07 2.91.83.1-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.92 0-1.11.38-2 1.03-2.71-.1-.25-.45-1.29.1-2.64 0 0 .84-.27 2.75 1.02.79-.22 1.65-.33 2.5-.33.85 0 1.71.11 2.5.33 1.91-1.29 2.75-1.02 2.75-1.02.55 1.35.2 2.39.1 2.64.65.71 1.03 1.6 1.03 2.71 0 3.82-2.34 4.66-4.57 4.91.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2Z"/>
+          </svg>
+        </a>
+
+        <!-- Email -->
+        <a href="mailto:Nicholas.LeDonne@gmail.com" aria-label="Email" class="hover:text-teal-400 transition-colors">
+          <svg class="w-5 h-5 stroke-current fill-none" viewBox="0 0 24 24" stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+          </svg>
+        </a>
+      </div>
+      
+      <!-- "On this page" Section Navigation -->
+      <nav class="w-full hidden md:block pt-2">
+        <p class="text-xs font-semibold text-neutral-500 uppercase tracking-wider mb-3">On this page</p>
+        <ul class="border-l border-neutral-800 space-y-2 text-sm">
+          <li>
+            <a href="#experience" class="block pl-3 text-teal-400 font-medium hover:text-teal-300 border-l border-teal-400 -ml-px transition-all">
+              Work Experience
+            </a>
+          </li>
+          <li>
+            <a href="#skills" class="block pl-3 text-neutral-400 hover:text-teal-400 border-l border-transparent -ml-px transition-all">
+              Technical Skills
+            </a>
+          </li>
+          <li>
+            <a href="#education" class="block pl-3 text-neutral-400 hover:text-teal-400 border-l border-transparent -ml-px transition-all">
+              Education
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="md:w-3/4 space-y-12">
+      
+      <!-- Header -->
+      <header class="border-b border-neutral-800 pb-6 text-center md:text-left">
+        <h1 class="text-4xl md:text-5xl font-bold text-white tracking-tight mb-2">Nicholas LeDonne</h1>
+        <p class="text-neutral-400 text-base font-medium">Elgin, IL • Remote</p>
+      </header>
+
+      <!-- Work Experience -->
+      <section id="experience" class="scroll-mt-12 space-y-10">
+        <h2 class="text-2xl font-bold text-white border-b border-neutral-800 pb-2 mb-6">Work Experience</h2>
+
+        <div>
+          <div class="flex flex-col md:flex-row md:justify-between md:items-baseline mb-1">
+            <h3 class="text-xl font-semibold text-teal-400">Senior Actuarial Analyst – Pricing Modeling</h3>
+            <span class="text-neutral-400 text-sm font-medium">2019 → Current</span>
+          </div>
+          <div class="flex flex-col md:flex-row md:justify-between md:items-baseline mb-3">
+            <h4 class="text-base text-neutral-200 font-medium">Centene Corporation</h4>
+            <span class="text-neutral-500 text-sm">Chicago, IL</span>
+          </div>
+          <ul class="list-disc list-inside space-y-2 text-neutral-300 text-sm leading-relaxed">
+            <li>Responsible for development of pricing and filing models that support Centene's ACA individual health products</li>
+            <li>Developed series of scripts that housed and produced Actuarial Memorandums for state filings</li>
+            <li>Stage projected membership for internal pricing model, including deploying R Shiny app for visualizations</li>
+            <li>Assist in maintaining internal R packages and processes</li>
+            <li>Develop and maintain internal VBA suite of macros/functions</li>
+          </ul>
+        </div>
+
+        <div>
+          <div class="flex flex-col md:flex-row md:justify-between md:items-baseline mb-1">
+            <h3 class="text-xl font-semibold text-teal-400">Actuarial Analyst – Regional Services, Reserving Expert</h3>
+            <span class="text-neutral-400 text-sm font-medium">2016 → 2018</span>
+          </div>
+          <div class="flex flex-col md:flex-row md:justify-between md:items-baseline mb-3">
+            <h4 class="text-base text-neutral-200 font-medium">Aetna Inc.</h4>
+            <span class="text-neutral-500 text-sm">Chicago, IL</span>
+          </div>
+          <ul class="list-disc list-inside space-y-2 text-neutral-300 text-sm leading-relaxed">
+            <li>Lead teams during monthly reserve cycles in analyzing hundreds of large claims to guarantee timely/accurate accruals</li>
+            <li>Involved in creating LCAD (large claims accrual database)</li>
+            <li>Helped construct Aetna’s actuarial training program by designing a website and coordinating a presentation series</li>
+            <li>Collaborated with underwriting and sales departments on custom benefit requests</li>
+            <li>Supported rating systems maintenance, small group rate testing/filing, and large group pricing</li>
+            <li>Assisted with talent recruitment by interviewing candidates and attending career fairs</li>
+          </ul>
+        </div>
+
+        <div>
+          <div class="flex flex-col md:flex-row md:justify-between md:items-baseline mb-1">
+            <h3 class="text-xl font-semibold text-teal-400">Facility Adviser</h3>
+            <span class="text-neutral-400 text-sm font-medium">2015</span>
+          </div>
+          <div class="flex flex-col md:flex-row md:justify-between md:items-baseline mb-3">
+            <h4 class="text-base text-neutral-200 font-medium">NIU Campus Recreation Center</h4>
+            <span class="text-neutral-500 text-sm">Dekalb, IL</span>
+          </div>
+          <ul class="list-disc list-inside space-y-2 text-neutral-300 text-sm leading-relaxed">
+            <li>Collaborated with management to report and address facility issues</li>
+            <li>Handled patron complaints effectively, improving customer satisfaction</li>
+            <li>Ensured patron safety by responding to emergencies within and outside the facility</li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Technical Skills -->
+      <section id="skills" class="scroll-mt-12 space-y-6">
+        <h2 class="text-2xl font-bold text-white border-b border-neutral-800 pb-2">Technical Skills</h2>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div class="bg-[#2a2a2a] p-5 rounded-xl border border-neutral-800">
+            <h4 class="text-base font-semibold text-white mb-3">Expertise in R</h4>
+            <ul class="list-disc list-inside space-y-1.5 text-sm text-neutral-300">
+              <li>Advanced data manipulation (`tidyverse`)</li>
+              <li>Package development</li>
+              <li>RStudio Connect and S3 integration</li>
+            </ul>
+          </div>
+          
+          <div class="bg-[#2a2a2a] p-5 rounded-xl border border-neutral-800">
+            <h4 class="text-base font-semibold text-white mb-3">Expertise in VBA/Excel</h4>
+            <ul class="list-disc list-inside space-y-1.5 text-sm text-neutral-300">
+              <li>Custom UDF development</li>
+              <li>Procedure realignment (modularity & efficiency)</li>
+            </ul>
+          </div>
+          
+          <div class="bg-[#2a2a2a] p-5 rounded-xl border border-neutral-800 md:col-span-2">
+            <h4 class="text-base font-semibold text-white mb-2">Other Proficiencies</h4>
+            <p class="text-sm text-neutral-300">Python, SQL, HTML, and C++</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Education -->
+      <section id="education" class="scroll-mt-12 space-y-6">
+        <h2 class="text-2xl font-bold text-white border-b border-neutral-800 pb-2">Education</h2>
+        
+        <div class="bg-[#2a2a2a] p-6 rounded-xl border border-neutral-800">
+          <div class="flex flex-col md:flex-row md:justify-between md:items-baseline mb-1">
+            <h3 class="text-xl font-semibold text-teal-400">Northern Illinois University</h3>
+            <span class="text-neutral-400 text-sm font-medium">2012 → 2015</span>
+          </div>
+          <div class="flex flex-col md:flex-row md:justify-between md:items-baseline mb-4">
+            <p class="text-base text-neutral-200 font-medium">BS in Statistics (Emphasis in Actuarial Science), Minor in Finance</p>
+            <span class="text-neutral-500 text-sm">DeKalb, IL</span>
+          </div>
+          
+          <h4 class="text-xs font-semibold text-neutral-400 uppercase tracking-wider mb-2">Exam Progress</h4>
+          <div class="flex flex-wrap gap-2">
+            <span class="px-3 py-1 bg-neutral-800 border border-neutral-700 text-neutral-300 rounded-full text-xs font-medium">P</span>
+            <span class="px-3 py-1 bg-neutral-800 border border-neutral-700 text-neutral-300 rounded-full text-xs font-medium">FM</span>
+            <span class="px-3 py-1 bg-neutral-800 border border-neutral-700 text-neutral-300 rounded-full text-xs font-medium">IFM</span>
+            <span class="px-3 py-1 bg-neutral-800 border border-neutral-700 text-neutral-300 rounded-full text-xs font-medium">SRM</span>
+            <span class="px-3 py-1 bg-neutral-800 border border-neutral-700 text-neutral-300 rounded-full text-xs font-medium">FAM</span>
+            <span class="px-3 py-1 bg-neutral-800 border border-neutral-700 text-neutral-300 rounded-full text-xs font-medium">PA</span>
+            <span class="px-3 py-1 bg-neutral-800 border border-neutral-700 text-neutral-300 rounded-full text-xs font-medium">ATPA</span>
+            <span class="px-3 py-1 bg-neutral-800 border border-neutral-700 text-neutral-300 rounded-full text-xs font-medium">FAP</span>
+            <span class="px-3 py-1 bg-neutral-800 border border-neutral-700 text-neutral-300 rounded-full text-xs font-medium">VEE</span>
+          </div>
+        </div>
+      </section>
+
+    </main>
+  </div>
+
+</body>
+</html>
