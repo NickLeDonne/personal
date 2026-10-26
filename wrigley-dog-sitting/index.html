@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en" class="antialiased">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wrigley Care Dashboard</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+    body { font-family: 'Inter', sans-serif; }
+  </style>
+</head>
+<body class="bg-slate-900 text-slate-300 min-h-screen pb-12">
+
+  <!-- Hero / Profile Section -->
+  <header class="bg-slate-800 pt-16 pb-10 px-4 border-b border-slate-700">
+    <div class="max-w-4xl mx-auto flex flex-col items-center text-center">
+      <div class="relative">
+        <img src="profile-pic.jpg" alt="Wrigley" class="w-48 h-48 md:w-56 md:h-56 rounded-full object-cover border-4 border-slate-600 shadow-xl z-10 relative">
+      </div>
+      <h1 class="text-4xl md:text-5xl font-extrabold text-slate-100 mt-6 tracking-tight">Wrigley</h1>
+      <p class="text-slate-400 mt-2 font-medium">Pembroke Welsh Corgi (Tricolor) • Male</p>
+      <div class="mt-5 flex flex-wrap justify-center gap-3 text-sm">
+        <span class="bg-slate-700/50 border border-slate-600 px-4 py-1.5 rounded-full text-slate-200">🎂 Born 03/16/2020</span>
+        <a href="https://www.akcreunite.org/cares-pub/customer/priv/customerHome.car" target="_blank" class="bg-slate-700/50 border border-slate-600 px-4 py-1.5 rounded-full text-amber-300 hover:bg-slate-600 transition">
+          🛜 Microchip: 956000012570863
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main class="max-w-4xl mx-auto px-4 mt-8 grid grid-cols-1 md:grid-cols-2 gap-6">
+
+    <!-- 🚨 EMERGENCY & VET -->
+    <section class="bg-slate-800 border border-slate-700 rounded-3xl p-6 shadow-lg md:col-span-2">
+      <div class="flex items-center gap-3 mb-4">
+        <span class="text-2xl">⚕️</span>
+        <h2 class="text-xl font-bold text-slate-100">Emergency & Vet</h2>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <div class="bg-slate-900/50 p-5 rounded-2xl border border-slate-700/50">
+          <h3 class="font-semibold text-slate-100 mb-2">St. Charles Veterinary Clinic</h3>
+          <p class="text-amber-300 font-bold text-lg mb-1">(630) 584-7404</p>
+          <p class="text-sm text-slate-400 mb-2">Open 24 Hours</p>
+          <a href="https://www.google.com/maps/place/St.+Charles+Veterinary+Clinic/@41.9228835,-88.2845768,17z/data=!4m10!1m2!2m1!1sSt.+Charles+Veterinary+Clinic!3m6!1s0x880f0261e7a8cfb7:0xbeea18ac6c06326a!8m2!3d41.9228835!4d-88.2845768!15sCh1TdC4gQ2hhcmxlcyBWZXRlcmluYXJ5IENsaW5pY1oeIhxzdCBjaGFybGVzIHZldGVyaW5hcnkgY2xpbmljkgEMdmV0ZXJpbmFyaWFumgFEQ2k5RFFVbFJRVU52WkVOb2RIbGpSamx2VDJwU1VGWXdXWFJXUlZKNFZteFdVbFp0VVRKaGJVcHhVakJhVDFKVlJSQULgAQD6AQQIABBK!16s%2Fg%2F1tdd5vwy?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D" target="_blank" class="text-sm text-blue-300 hover:underline">📍 530 Dunham Rd, St. Charles, IL</a>
+        </div>
+        <div class="bg-rose-900/20 p-5 rounded-2xl border border-rose-800/30">
+          <h3 class="font-semibold text-rose-300 mb-3">☠️ Do NOT Feed (Toxic)</h3>
+          <div class="flex flex-wrap gap-2 text-sm font-medium">
+            <span class="px-2.5 py-1 bg-rose-900/40 text-rose-200 rounded border border-rose-800/30">Chocolate</span>
+            <span class="px-2.5 py-1 bg-rose-900/40 text-rose-200 rounded border border-rose-800/30">Avocados</span>
+            <span class="px-2.5 py-1 bg-rose-900/40 text-rose-200 rounded border border-rose-800/30">Grapes/Raisins</span>
+            <span class="px-2.5 py-1 bg-rose-900/40 text-rose-200 rounded border border-rose-800/30">Garlic/Onions</span>
+            <span class="px-2.5 py-1 bg-rose-900/40 text-rose-200 rounded border border-rose-800/30">Jalapeño/Spices</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 📞 CONTACT -->
+    <section class="bg-slate-800 border border-slate-700 rounded-3xl p-6 shadow-lg">
+      <div class="flex items-center gap-3 mb-5">
+        <span class="text-2xl">📞</span>
+        <h2 class="text-xl font-bold text-slate-100">Contact Info</h2>
+      </div>
+      <div class="grid grid-cols-1 gap-4">
+        <div class="flex justify-between items-center bg-slate-900/50 border border-slate-700/50 p-4 rounded-xl">
+          <span class="text-slate-200 font-medium">Kelsey</span>
+          <a href="tel:6304005971" class="text-amber-300 font-semibold">(630) 400-5971</a>
+        </div>
+        <div class="flex justify-between items-center bg-slate-900/50 border border-slate-700/50 p-4 rounded-xl">
+          <span class="text-slate-200 font-medium">Nick</span>
+          <a href="tel:8478459953" class="text-amber-300 font-semibold">(847) 845-9953</a>
+        </div>
+        <div class="flex flex-col sm:flex-row sm:justify-between sm:items-center bg-slate-900/50 border border-slate-700/50 p-4 rounded-xl">
+          <span class="text-slate-200 font-medium mb-1 sm:mb-0">Home</span>
+          <a href="https://maps.app.goo.gl/5VYxGpGpBmkbqJg28" target="_blank" class="text-blue-300 hover:underline">📍 4034 Pompton Ct, Elgin, IL 60124</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- 🍗 FOOD -->
+    <section class="bg-slate-800 border border-slate-700 rounded-3xl p-6 shadow-lg">
+      <div class="flex items-center gap-3 mb-4">
+        <span class="text-2xl">🍗</span>
+        <h2 class="text-xl font-bold text-slate-100">Meals & Treats</h2>
+      </div>
+      
+      <div class="mb-5 bg-slate-900/50 p-4 rounded-2xl border border-slate-700/50">
+        <h3 class="font-semibold text-slate-100 mb-2">Schedule & Portion</h3>
+        <p class="text-sm mb-2"><strong class="text-slate-200">Twice a day:</strong> Before morning walk and ~5:00 PM</p>
+        <p class="text-sm leading-relaxed text-slate-400">
+          <a href="https://image.chewy.com/is/image/catalog/91981_MAIN._AC_SL600_V1657661113_.jpg" target="_blank" class="text-amber-300 underline underline-offset-2">One scoop</a> (1/3 Cup) with a small amount of whipped cream.
+        </p>
+      </div>
+
+      <div>
+        <h3 class="text-sm font-semibold text-slate-400 mb-3 uppercase tracking-wider">Approved Treats (Few per day)</h3>
+        <div class="flex flex-wrap gap-2">
+          <span class="px-3 py-1.5 bg-slate-700/50 rounded-lg text-sm text-slate-200">Ice cubes</span>
+          <span class="px-3 py-1.5 bg-slate-700/50 rounded-lg text-sm text-slate-200">Cheese chunks</span>
+          <span class="px-3 py-1.5 bg-slate-700/50 rounded-lg text-sm text-slate-200">Blueberry yogurt</span>
+          <span class="px-3 py-1.5 bg-slate-700/50 rounded-lg text-sm text-slate-200">Hot Dog</span>
+          <span class="px-3 py-1.5 bg-slate-700/50 rounded-lg text-sm text-slate-200">Pupperoni</span>
+          <a href="https://i5.walmartimages.com/seo/Dogsters-Nutly-Cheese-Flavor-Ice-Cream-Style-Treats-for-Dogs-14-oz-4-Cups-Frozen_9c188380-ac86-4002-a6c5-28e6c3eced35.8d8638f012254f5a9da6ad3a07584ddd.png?odnHeight=768&odnWidth=768&odnBg=FFFFFF" target="_blank" class="px-3 py-1.5 bg-slate-700/50 border border-slate-600 rounded-lg text-sm text-amber-300 hover:bg-slate-600 transition">Dog Ice Cream</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- 🦮 WALKS & POTTY -->
+    <section class="bg-slate-800 border border-slate-700 rounded-3xl p-6 shadow-lg">
+      <div class="flex items-center gap-3 mb-4">
+        <span class="text-2xl">🦮</span>
+        <h2 class="text-xl font-bold text-slate-100">Walks & Potty</h2>
+      </div>
+      
+      <div class="space-y-4">
+        <div class="bg-slate-900/50 p-4 rounded-2xl border border-slate-700/50">
+          <p class="text-sm"><strong class="text-slate-200">Routine:</strong> 7:00 AM walk + evening after dinner.</p>
+          <p class="text-sm mt-2"><strong class="text-slate-200">Distance:</strong> Approx. 2 miles (until he gets tired).</p>
+        </div>
+        
+        <div class="bg-rose-900/20 p-4 rounded-2xl border border-rose-800/30">
+          <p class="text-sm text-rose-200 font-medium">
+            🚨 <strong class="text-rose-300">CRITICAL:</strong> Pay close attention at crosswalks so he does not wander into traffic. He understands <span class="bg-rose-900/40 px-1.5 py-0.5 rounded border border-rose-800/30">"Wait"</span> and <span class="bg-rose-900/40 px-1.5 py-0.5 rounded border border-rose-800/30">"Let's Cross"</span>.
+          </p>
+        </div>
+
+        <ul class="text-sm text-slate-400 space-y-2 list-disc list-outside ml-4 px-2">
+          <li>He will resist at the start of the walk, but cooperates once moving.</li>
+          <li>Putting his harness on is a game for him—you will have to chase him!</li>
+          <li>Extra poop bags are in the coat closet across from the kitchen table.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- 🗣️ COMMANDS -->
+    <section class="bg-slate-800 border border-slate-700 rounded-3xl p-6 shadow-lg">
+      <div class="flex items-center gap-3 mb-4">
+        <span class="text-2xl">🗣️</span>
+        <h2 class="text-xl font-bold text-slate-100">Commands & Comms</h2>
+      </div>
+
+      <div class="mb-6">
+        <h3 class="text-sm font-semibold text-slate-400 mb-3 uppercase tracking-wider">Commands</h3>
+        <div class="flex flex-wrap gap-2">
+          <span class="px-3 py-1 bg-slate-700/50 border border-slate-600 text-slate-200 rounded-full text-sm font-medium">Sit / Lay Down</span>
+          <span class="px-3 py-1 bg-slate-700/50 border border-slate-600 text-slate-200 rounded-full text-sm font-medium">Up / Off</span>
+          <span class="px-3 py-1 bg-slate-700/50 border border-slate-600 text-slate-200 rounded-full text-sm font-medium">Speak</span>
+          <span class="px-3 py-1 bg-slate-700/50 border border-slate-600 text-slate-200 rounded-full text-sm font-medium">Touch (bells)</span>
+          <span class="px-3 py-1 bg-slate-700/50 border border-slate-600 text-slate-200 rounded-full text-sm font-medium">Wait</span>
+          <span class="px-3 py-1 bg-slate-700/50 border border-slate-600 text-slate-200 rounded-full text-sm font-medium">Drop</span>
+          <span class="px-3 py-1 bg-slate-700/50 border border-slate-600 text-slate-200 rounded-full text-sm font-medium">Kisses</span>
+          <span class="px-3 py-1 bg-slate-700/50 border border-slate-600 text-slate-200 rounded-full text-sm font-medium">Paw / High Five!</span>
+          <span class="px-3 py-1 bg-slate-700/50 border border-slate-600 text-slate-200 rounded-full text-sm font-medium">Roll Over (falls to side)</span>
+        </div>
+      </div>
+
+      <div class="bg-slate-900/50 p-5 rounded-2xl border border-slate-700/50">
+        <h3 class="text-sm font-semibold text-slate-400 mb-3 uppercase tracking-wider">Question Phrasing</h3>
+        <div class="space-y-3 text-sm text-slate-300">
+          <p><strong class="text-slate-100">Are you...</strong> hungry?</p>
+          <p class="leading-relaxed"><strong class="text-slate-100">Do you...</strong> have to go potty? • want to go outside? • want to go for a walk? • want food? • want a treat? • want cuddles? • want scratches? • want to go to bed?</p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+</body>
+</html>
