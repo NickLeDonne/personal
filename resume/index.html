@@ -15,7 +15,7 @@
   <div class="max-w-6xl mx-auto p-6 md:p-12 flex flex-col md:flex-row gap-12">
     
     <!-- Left Sidebar -->
-    <aside class="md:w-1/4 flex flex-col items-center md:items-start space-y-6 md:sticky md:top-12 h-fit">
+    <aside class="md:w-1/4 flex flex-col items-center md:items-start space-y-6 sticky top-12 self-start">
       <!-- Profile Picture -->
       <img src="profile-pic.jpg" alt="Nicholas LeDonne" class="w-44 h-44 rounded-3xl object-cover border border-neutral-700 shadow-md">
       
@@ -76,68 +76,70 @@
       </header>
 
       <!-- Work Experience -->
-      <section id="experience" class="scroll-mt-12 space-y-10">
-        <h2 class="text-2xl font-bold text-white border-b border-neutral-800 pb-2 mb-6">Work Experience</h2>
+      <section id="experience" class="scroll-mt-12 space-y-3">
+        <h2 class="text-2xl font-bold text-white border-b border-neutral-800 pb-2">Work Experience</h2>
 
-        <div>
-          <div class="flex flex-col md:flex-row md:justify-between md:items-baseline mb-1">
-            <h3 class="text-xl font-semibold text-teal-400">Senior Actuarial Analyst – Pricing Modeling</h3>
-            <span class="text-neutral-400 text-sm font-medium">2019 → Current</span>
+        <div class="space-y-8 pt-1">
+          <div>
+            <div class="flex flex-col md:flex-row md:justify-between md:items-baseline mb-1">
+              <h3 class="text-xl font-semibold text-teal-400">Senior Actuarial Analyst – Pricing Modeling</h3>
+              <span class="text-neutral-400 text-sm font-medium">2019 → Current</span>
+            </div>
+            <div class="flex flex-col md:flex-row md:justify-between md:items-baseline mb-3">
+              <h4 class="text-base text-neutral-200 font-medium">Centene Corporation</h4>
+              <span class="text-neutral-500 text-sm">Chicago, IL</span>
+            </div>
+            <ul class="list-disc list-inside space-y-2 text-neutral-300 text-sm leading-relaxed">
+              <li>Responsible for development of pricing and filing models that support Centene's ACA individual health products</li>
+              <li>Developed series of scripts that housed and produced Actuarial Memorandums for state filings</li>
+              <li>Stage projected membership for internal pricing model, including deploying R Shiny app for visualizations</li>
+              <li>Assist in maintaining internal R packages and processes</li>
+              <li>Develop and maintain internal VBA suite of macros/functions</li>
+            </ul>
           </div>
-          <div class="flex flex-col md:flex-row md:justify-between md:items-baseline mb-3">
-            <h4 class="text-base text-neutral-200 font-medium">Centene Corporation</h4>
-            <span class="text-neutral-500 text-sm">Chicago, IL</span>
-          </div>
-          <ul class="list-disc list-inside space-y-2 text-neutral-300 text-sm leading-relaxed">
-            <li>Responsible for development of pricing and filing models that support Centene's ACA individual health products</li>
-            <li>Developed series of scripts that housed and produced Actuarial Memorandums for state filings</li>
-            <li>Stage projected membership for internal pricing model, including deploying R Shiny app for visualizations</li>
-            <li>Assist in maintaining internal R packages and processes</li>
-            <li>Develop and maintain internal VBA suite of macros/functions</li>
-          </ul>
-        </div>
 
-        <div>
-          <div class="flex flex-col md:flex-row md:justify-between md:items-baseline mb-1">
-            <h3 class="text-xl font-semibold text-teal-400">Actuarial Analyst – Regional Services, Reserving Expert</h3>
-            <span class="text-neutral-400 text-sm font-medium">2016 → 2018</span>
+          <div>
+            <div class="flex flex-col md:flex-row md:justify-between md:items-baseline mb-1">
+              <h3 class="text-xl font-semibold text-teal-400">Actuarial Analyst – Regional Services, Reserving Expert</h3>
+              <span class="text-neutral-400 text-sm font-medium">2016 → 2018</span>
+            </div>
+            <div class="flex flex-col md:flex-row md:justify-between md:items-baseline mb-3">
+              <h4 class="text-base text-neutral-200 font-medium">Aetna Inc.</h4>
+              <span class="text-neutral-500 text-sm">Chicago, IL</span>
+            </div>
+            <ul class="list-disc list-inside space-y-2 text-neutral-300 text-sm leading-relaxed">
+              <li>Lead teams during monthly reserve cycles in analyzing hundreds of large claims to guarantee timely/accurate accruals</li>
+              <li>Involved in creating LCAD (large claims accrual database)</li>
+              <li>Helped construct Aetna’s actuarial training program by designing a website and coordinating a presentation series</li>
+              <li>Collaborated with underwriting and sales departments on custom benefit requests</li>
+              <li>Supported rating systems maintenance, small group rate testing/filing, and large group pricing</li>
+              <li>Assisted with talent recruitment by interviewing candidates and attending career fairs</li>
+            </ul>
           </div>
-          <div class="flex flex-col md:flex-row md:justify-between md:items-baseline mb-3">
-            <h4 class="text-base text-neutral-200 font-medium">Aetna Inc.</h4>
-            <span class="text-neutral-500 text-sm">Chicago, IL</span>
-          </div>
-          <ul class="list-disc list-inside space-y-2 text-neutral-300 text-sm leading-relaxed">
-            <li>Lead teams during monthly reserve cycles in analyzing hundreds of large claims to guarantee timely/accurate accruals</li>
-            <li>Involved in creating LCAD (large claims accrual database)</li>
-            <li>Helped construct Aetna’s actuarial training program by designing a website and coordinating a presentation series</li>
-            <li>Collaborated with underwriting and sales departments on custom benefit requests</li>
-            <li>Supported rating systems maintenance, small group rate testing/filing, and large group pricing</li>
-            <li>Assisted with talent recruitment by interviewing candidates and attending career fairs</li>
-          </ul>
-        </div>
 
-        <div>
-          <div class="flex flex-col md:flex-row md:justify-between md:items-baseline mb-1">
-            <h3 class="text-xl font-semibold text-teal-400">Facility Adviser</h3>
-            <span class="text-neutral-400 text-sm font-medium">2015</span>
+          <div>
+            <div class="flex flex-col md:flex-row md:justify-between md:items-baseline mb-1">
+              <h3 class="text-xl font-semibold text-teal-400">Facility Adviser</h3>
+              <span class="text-neutral-400 text-sm font-medium">2015</span>
+            </div>
+            <div class="flex flex-col md:flex-row md:justify-between md:items-baseline mb-3">
+              <h4 class="text-base text-neutral-200 font-medium">NIU Campus Recreation Center</h4>
+              <span class="text-neutral-500 text-sm">Dekalb, IL</span>
+            </div>
+            <ul class="list-disc list-inside space-y-2 text-neutral-300 text-sm leading-relaxed">
+              <li>Collaborated with management to report and address facility issues</li>
+              <li>Handled patron complaints effectively, improving customer satisfaction</li>
+              <li>Ensured patron safety by responding to emergencies within and outside the facility</li>
+            </ul>
           </div>
-          <div class="flex flex-col md:flex-row md:justify-between md:items-baseline mb-3">
-            <h4 class="text-base text-neutral-200 font-medium">NIU Campus Recreation Center</h4>
-            <span class="text-neutral-500 text-sm">Dekalb, IL</span>
-          </div>
-          <ul class="list-disc list-inside space-y-2 text-neutral-300 text-sm leading-relaxed">
-            <li>Collaborated with management to report and address facility issues</li>
-            <li>Handled patron complaints effectively, improving customer satisfaction</li>
-            <li>Ensured patron safety by responding to emergencies within and outside the facility</li>
-          </ul>
         </div>
       </section>
 
       <!-- Technical Skills -->
-      <section id="skills" class="scroll-mt-12 space-y-6">
+      <section id="skills" class="scroll-mt-12 space-y-3">
         <h2 class="text-2xl font-bold text-white border-b border-neutral-800 pb-2">Technical Skills</h2>
         
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 pt-1">
           <div class="bg-[#2a2a2a] p-5 rounded-xl border border-neutral-800">
             <h4 class="text-base font-semibold text-white mb-3">Expertise in R</h4>
             <ul class="list-disc list-inside space-y-1.5 text-sm text-neutral-300">
@@ -163,30 +165,47 @@
       </section>
 
       <!-- Education -->
-      <section id="education" class="scroll-mt-12 space-y-6">
+      <section id="education" class="scroll-mt-12 space-y-3">
         <h2 class="text-2xl font-bold text-white border-b border-neutral-800 pb-2">Education</h2>
         
-        <div class="bg-[#2a2a2a] p-6 rounded-xl border border-neutral-800">
-          <div class="flex flex-col md:flex-row md:justify-between md:items-baseline mb-1">
-            <h3 class="text-xl font-semibold text-teal-400">Northern Illinois University</h3>
-            <span class="text-neutral-400 text-sm font-medium">2012 → 2015</span>
+        <div class="space-y-4 pt-1">
+          <!-- Actuarial Exams -->
+          <div class="bg-[#2a2a2a] p-6 rounded-xl border border-neutral-800">
+            <div class="flex flex-col md:flex-row md:justify-between md:items-baseline mb-3">
+              <h3 class="text-xl font-semibold text-teal-400">
+                <a href="https://pathways.soa.org/designations/asa" target="_blank" rel="noopener noreferrer" class="hover:text-teal-300 transition-colors inline-flex items-center gap-1.5">
+                  Actuarial Exams
+                  <svg class="w-4 h-4 stroke-current fill-none inline-block" viewBox="0 0 24 24" stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                  </svg>
+                </a>
+              </h3>
+              <span class="text-neutral-400 text-sm font-medium">Society of Actuaries</span>
+            </div>
+            <div class="flex flex-wrap gap-2">
+              <span class="px-3 py-1 bg-neutral-800 border border-neutral-700 text-neutral-300 rounded-full text-xs font-medium">FM</span>
+              <span class="px-3 py-1 bg-neutral-800 border border-neutral-700 text-neutral-300 rounded-full text-xs font-medium">P</span>
+              <span class="px-3 py-1 bg-neutral-800 border border-neutral-700 text-neutral-300 rounded-full text-xs font-medium">VEE</span>
+              <span class="px-3 py-1 bg-neutral-800 border border-neutral-700 text-neutral-300 rounded-full text-xs font-medium">PAF</span>
+              <span class="px-3 py-1 bg-neutral-800 border border-neutral-700 text-neutral-300 rounded-full text-xs font-medium">FAM</span>
+              <span class="px-3 py-1 bg-neutral-800 border border-neutral-700 text-neutral-300 rounded-full text-xs font-medium">SRM</span>
+              <span class="px-3 py-1 bg-neutral-800 border border-neutral-700 text-neutral-300 rounded-full text-xs font-medium">ASF</span>
+              <span class="px-3 py-1 bg-neutral-800 border border-neutral-700 text-neutral-300 rounded-full text-xs font-medium">PA</span>
+              <span class="px-3 py-1 bg-neutral-800 border border-neutral-700 text-neutral-300 rounded-full text-xs font-medium">FAP</span>
+              <span class="px-3 py-1 bg-neutral-800 border border-neutral-700 text-neutral-300 rounded-full text-xs font-medium">ATPA</span>
+            </div>
           </div>
-          <div class="flex flex-col md:flex-row md:justify-between md:items-baseline mb-4">
-            <p class="text-base text-neutral-200 font-medium">BS in Statistics (Emphasis in Actuarial Science), Minor in Finance</p>
-            <span class="text-neutral-500 text-sm">DeKalb, IL</span>
-          </div>
-          
-          <h4 class="text-xs font-semibold text-neutral-400 uppercase tracking-wider mb-2">Exam Progress</h4>
-          <div class="flex flex-wrap gap-2">
-            <span class="px-3 py-1 bg-neutral-800 border border-neutral-700 text-neutral-300 rounded-full text-xs font-medium">P</span>
-            <span class="px-3 py-1 bg-neutral-800 border border-neutral-700 text-neutral-300 rounded-full text-xs font-medium">FM</span>
-            <span class="px-3 py-1 bg-neutral-800 border border-neutral-700 text-neutral-300 rounded-full text-xs font-medium">IFM</span>
-            <span class="px-3 py-1 bg-neutral-800 border border-neutral-700 text-neutral-300 rounded-full text-xs font-medium">SRM</span>
-            <span class="px-3 py-1 bg-neutral-800 border border-neutral-700 text-neutral-300 rounded-full text-xs font-medium">FAM</span>
-            <span class="px-3 py-1 bg-neutral-800 border border-neutral-700 text-neutral-300 rounded-full text-xs font-medium">PA</span>
-            <span class="px-3 py-1 bg-neutral-800 border border-neutral-700 text-neutral-300 rounded-full text-xs font-medium">ATPA</span>
-            <span class="px-3 py-1 bg-neutral-800 border border-neutral-700 text-neutral-300 rounded-full text-xs font-medium">FAP</span>
-            <span class="px-3 py-1 bg-neutral-800 border border-neutral-700 text-neutral-300 rounded-full text-xs font-medium">VEE</span>
+
+          <!-- NIU -->
+          <div class="bg-[#2a2a2a] p-6 rounded-xl border border-neutral-800">
+            <div class="flex flex-col md:flex-row md:justify-between md:items-baseline mb-1">
+              <h3 class="text-xl font-semibold text-teal-400">Northern Illinois University</h3>
+              <span class="text-neutral-400 text-sm font-medium">2012 → 2015</span>
+            </div>
+            <div class="flex flex-col md:flex-row md:justify-between md:items-baseline">
+              <p class="text-base text-neutral-200 font-medium">BS in Statistics (Emphasis in Actuarial Science), Minor in Finance</p>
+              <span class="text-neutral-500 text-sm">DeKalb, IL</span>
+            </div>
           </div>
         </div>
       </section>
